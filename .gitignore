@@ -1,0 +1,6 @@
+# Obsidian local config (per-device; not needed for publishing)
+.obsidian/
+
+# OS
+.DS_Store
+Thumbs.db
