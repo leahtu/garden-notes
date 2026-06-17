@@ -68,6 +68,6 @@ A few things that keep it tidy going forward:
 
 ## Reflections
 
-Building this with AI 
+Building this with AI....
 
 If you're curious about any of it, wander around the rest of the garden or reach out.
