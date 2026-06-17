@@ -5,7 +5,7 @@ tags:
   - making
 ---
 
-> [!note] Written with (and by) AI
+> [!note] Written with AI
 > I built this website with the help of an AI coding assistant, and this note was written by that AI too. 
 
 ## The idea
