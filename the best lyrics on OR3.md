@@ -1,4 +1,8 @@
-#music
+---
+title: The best lyrics on OR3
+tags:
+  - "#music"
+---
 my fav lyrics from you seem pretty sad for a girl so in love! personally, i think purple and begged are the lyrically the best
 
 drop dead
