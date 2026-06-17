@@ -12,31 +12,62 @@ tags:
 
 Two things under one roof:
 
-- a **front site** — home, résumé, pottery
-- a **digital garden** — a growing, interlinked collection of notes (you're reading one right now 🌱)
+- a **personal site** — home, résumé, pottery portfolio
+- a **digital garden** — a growing, interlinked collection of notes
 
 ## The stack
 
-Everything is static and free to host. The pieces:
+Everything is **static** and **free to host**. The pieces:
 
-- **Next.js** (React) for the front site — built as a static export
-- **Quartz** for the digital garden
-- **Obsidian** for writing notes (on my laptop *and* my phone)
-- **GitHub Pages** for hosting, **GitHub Actions** for the build/deploy
-- Fonts: Syne (my name), DM Mono, Inter, Outfit
+| Layer          | What I used                                                |
+| -------------- | ---------------------------------------------------------- |
+| Front site     | **Next.js** (React, TypeScript) — built as a static export |
+| Styling        | custom CSS + **next/font** (Syne, Inter, Outfit, DM Mono)  |
+| Digital garden | **Quartz**                                                 |
+| Writing notes  | **Obsidian** + the **Obsidian Git** plugin                 |
+| Hosting        | **GitHub Pages**                                           |
+| Build & deploy | **GitHub Actions**                                         |
 
 ## The process
 
-It was *very* iterative. We went through several full redesigns before landing on the look. The front site started as plain HTML/CSS, then got rebuilt in Next.js so it's easier to add to later.
+It was *very* iterative. A rough order of how it went:
 
-The garden took a bit of plumbing. Notes live in their own little repo so I can sync them cleanly to my phone; when I write something, it pushes to GitHub, a workflow rebuilds the site, and the note appears here a couple of minutes later. No manual publishing — I just write.
+1. **Cleanup** — started from an old, outdated site and stripped out the dead links and stale pages.
+2. **Redesign** — explored a *lot* of directions (layouts, fonts, colour palettes) before the full-screen gradient hero and yellow name finally clicked.
+3. **Rebuild in Next.js** — the front site began as plain HTML/CSS, then got ported to Next.js/React so it's easier to add features later.
+4. **Digital garden** — set up Quartz and themed it to match the site, with notes written in Obsidian.
+5. **Deploy pipeline** — a GitHub Actions workflow builds *both* the site and the garden and publishes them together (site at `/`, garden at `/garden`).
+6. **The notes split** — my notes live in their own little repo so I can sync them cleanly to my phone; a push triggers a rebuild and the note shows up here a couple minutes later.
+7. **Writing from my phone** — Obsidian + Git on iPhone, so I can plant a note from anywhere.
+
+## How it all connects
+
+```
+   Obsidian (laptop)              Obsidian (iPhone)
+        │  push                        │  push
+        └──────► notes repo ◄──────────┘
+                     │  (a push triggers a rebuild)
+                     ▼
+        site repo ── GitHub Actions ──┐
+     (Next.js + Quartz)               │
+                     │ build site + build garden
+                     ▼                ▼
+            site at /  ──────  garden at /garden
+                     └── GitHub Pages ──┘
+                         → live in ~2 min
+```
 
 ## What this means in practice
 
 I can open Obsidian, jot down a thought, and it quietly shows up in the garden. That low-friction loop was the whole goal: **make it so simple it's sustainable.**
 
+A few things that keep it tidy going forward:
+- to edit the site, I work in the Next.js project and push
+- to write, I just type in Obsidian (laptop or phone)
+- a note marked `draft: true` stays private until I'm ready
+
 ## Reflections
 
-Building this with AI was a strange and lovely experience — equal parts "wow, that was fast" and "no, not like *that*." I drove the taste and the decisions; the AI handled the wiring and the parts I didn't know how to do. The result is something I actually want to tend.
+Building this with AI 
 
 If you're curious about any of it, wander around the rest of the garden or reach out.
