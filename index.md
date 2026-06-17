@@ -1,7 +1,6 @@
 ---
-title: Leah's Digital Garden
+title: Welcome!
 ---
+hi :)
 
-a growing collection of notes, half-formed thoughts, and things i'm learning — about ceramics, product, and whatever else i'm curious about.
-
-this is a *garden*, not a blog: notes here are planted, tended, and grow over time. some are tiny seedlings, others are more developed. feel free to wander around.
+i haven't quite figured out what i want my digital garden to be yet, but for now it'll be a home for my growing collection of notes, thoughts, and things i'm learning.
