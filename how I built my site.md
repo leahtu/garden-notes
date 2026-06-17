@@ -1,12 +1,12 @@
 ---
-title: How I built this site
+title: How I built my site
 tags:
   - meta
   - making
 ---
 
 > [!note] Written with AI
-> I built this website with the help of an AI coding assistant, and this note was written by that AI too. 
+> I built my website with the help of an AI coding assistant, and this note was written by AI too. Except for the reflection section.
 
 ## The idea
 
@@ -66,8 +66,14 @@ A few things that keep it tidy going forward:
 - to write, I just type in Obsidian (laptop or phone)
 - a note marked `draft: true` stays private until I'm ready
 
-## Reflections
+## Reflection
 
-Building this with AI....(will fill this in later)
+Building my personal site with AI was so much fun. I've heard about so many people having their lightbulb moment with AI, and I thought I'd already had mine when I first contributed code as a PM at work. But I think creating this site was my true aha-moment. 
 
-If you're curious about any of it, wander around the rest of the garden or reach out.
+I've been vibe-coding at work for a few months now, but never on any personal projects. While building this site, I felt the same excitement and wonder I felt when I first learned how to code in my CS class. 
+
+I went into this not knowing how I wanted anything to look, so I did spend a few hours going back and forth with my agent until I was happy with the layout (which was annoying because I kept thinking "grr why can't you just do something good that I like?!"). I spent way more time on this than I expected to. I thought I'd be done in an hour. 
+
+But I became obsessed! All I wanted to do was keep prompting and building. It really felt like having a fairy godmother with a magic wand. Whatever I asked for, it would become real within minutes. I kept losing track of time because I was having so much fun. I just wanted to build!!!!! 
+
+What a great feeling. And it's a feeling I want to continue chasing. I'm excited to make more things that spark joy and creativity!
