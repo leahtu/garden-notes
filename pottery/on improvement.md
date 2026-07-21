@@ -1,2 +1,2 @@
-- physical evidence of improvement
+- pots are physical evidence of growth and improvement
 - weight of the piece, consistency, proportions
