@@ -1,0 +1,2 @@
+- physical evidence of improvement
+- weight of the piece, consistency, proportions
