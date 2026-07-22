@@ -1,4 +1,8 @@
 
+when i first started throwing, my goal was perfection. i wanted my pots to look like a machine made them. i spent hours and hours practicing and improving. i threw extremely tight and thin and would carefully burnish every piece. i got really good at this, but started feeling bored after about 3 years. i work out of a community studio and would see pots made in the beginner classes and i thought some of the pieces were quite charming in a way that my pieces weren't. i think this was the first time i appreciated the beauty in imperfect pots. i started to feel myself become more drawn to pieces that looked more natural, with earthy materials, and fired with different techniques. at this point, i started following artists on instagram who embraced a wabi-sabi aesthetic.
+
+in 2025, i signed up for a workshop where i learned how to use local materials in my work. it was eye-opening getting to meet other artists with distinct styles. i felt a lot more connected to the material itself and grew an appreciation for pieces that highlighted that. we added rocks and sand and other materials to clay and handbuilt all our pieces. it was my first time handbuilding and i really enjoyed feeling the clay in my hands. it made me a lot more thoughtful because it was a slower process than wheel throwing. after this workshop, i really wanted to push myself to try new things with clay and try throwing loose. 
+
+add learnings 
 - both are precise in different ways
 - thoughts on one being better than the other and how it impacts the way pots/artists are perceived
-- my struggle between both styles and the pipeline of starting tight to loose
